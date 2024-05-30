@@ -1,0 +1,168 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f2f2f2; 
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    margin-bottom: 20px; 
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+header .logo span {
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #333;
+    background-color: #FFEB3B;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #FFD700;
+    color: #000;
+}
+
+.cuadro-de-busqueda {
+    display: flex;
+    align-items: center;
+}
+
+.cuadro-de-busqueda input[placeholder="Buscar..."] {
+    padding: 5px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+.cuadro-de-busqueda button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    background-color: #FFEB3B;
+    color: #333;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.cuadro-de-busqueda button:hover {
+    background-color: #FFD700;
+    color: #000;
+}
+
+.collage {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+section {
+    flex: 1 1 300px; 
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"], 
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #FFEB3B;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #FFD700;
+}
+
+.collage section img {
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+    margin: 0 auto;
+  }
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer .contacto,
+footer .redes-sociales {
+    margin-bottom: 20px;
+}
+
+footer .redes-sociales img {
+    height: 30px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+footer .redes-sociales a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}

@@ -1,0 +1,165 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f2f2f2; 
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+header .logo span {
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #333;
+    background-color: #FFEB3B;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #FFD700;
+    color: #000;
+}
+
+.cuadro-de-busqueda {
+    display: flex;
+    align-items: center;
+}
+
+.cuadro-de-busqueda input[type="text"] {
+    padding: 5px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+.cuadro-de-busqueda button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    background-color: #FFEB3B;
+    color: #333;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.cuadro-de-busqueda button:hover {
+    background-color: #FFD700;
+    color: #000;
+}
+.collage {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.diplomados-destacados,
+.cursos-destacados {
+    flex: 1 1 300px;
+    background-color: #e0e0e0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.diplomados-destacados h2,
+.cursos-destacados h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.course-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.course {
+    background: #fff;
+    padding: 1rem;
+    margin: 1rem;
+    border: 1px solid #ddd;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease, outline 0.3s ease; 
+    flex-basis: calc(33.333% - 2rem);
+    box-sizing: border-box;
+}
+
+.course img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+}
+
+.course:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9; 
+    outline: 2px solid #00f; 
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+footer .contacto,
+footer .redes-sociales {
+    margin-bottom: 20px;
+}
+
+footer .redes-sociales img {
+    height: 30px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+footer .redes-sociales a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}

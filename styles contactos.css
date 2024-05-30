@@ -1,0 +1,195 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f2f2f2; 
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    margin-bottom: 20px; 
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+header .logo span {
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #333;
+    background-color: #FFEB3B;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #FFD700;
+    color: #000;
+}
+
+.cuadro-de-busqueda {
+    display: flex;
+    align-items: center;
+}
+
+.cuadro-de-busqueda input[placeholder="Buscar..."] {
+    padding: 5px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+.cuadro-de-busqueda button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    background-color: #FFEB3B;
+    color: #333;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.cuadro-de-busqueda button:hover {
+    background-color: #FFD700;
+    color: #000;
+}
+
+.introduccion {
+    background-color: #FFF;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    text-align: center; 
+}
+
+.introduccion h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-align: center; 
+}
+
+.introduccion h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.introduccion p {
+    font-size: 1.1em;
+}
+
+.introduccion ul {
+    list-style-type: none;
+    margin: 20px 0;
+    padding: 0;
+}
+
+.introduccion ul li {
+    margin-bottom: 10px;
+}
+
+.contacto-y-formulario {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.informacion-contacto,
+.formulario-contacto {
+    width: 45%; 
+    background-color: #FFF;
+    padding: 20px; 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    
+}
+
+.informacion-contacto h2,
+.formulario-contacto h2 {
+    font-size: 1.8em; 
+    margin-bottom: 15px; 
+}
+
+.formulario-contacto input[type="text"], 
+.formulario-contacto input[type="email"],
+.formulario-contacto textarea {
+    width: 100%;
+
+}
+
+.formulario-contacto button[type="submit"] {
+    background-color: #FFEB3B;
+    color: #333;
+    padding: 8px 16px; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+
+.formulario-contacto button[type="submit"]:hover {
+    background-color: #FFD700;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 5px;
+    max-width: 1200px; 
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+footer .contacto,
+footer .redes-sociales {
+    margin-bottom: 20px;
+}
+
+footer .redes-sociales img {
+    height: 30px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+footer .redes-sociales a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
